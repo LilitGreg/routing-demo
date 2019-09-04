@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+nav a.active {
+    color:blue;
+}
+.items li {
+    width: 200px;
+    background: gray;
+    margin-bottom:20px;
+    border-radius:11px;
+}
+.items .badge {
+    background: blue;
+    display: inline-block;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    padding: 9px;
+}
+.items li.selected {
+ background-color:rgb(168, 135, 135);
+ color:white;
+}
